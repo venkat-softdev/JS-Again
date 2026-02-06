@@ -18,3 +18,12 @@ console.log("type of phone :",typeof phone);
 let age;
 console.log("type of age :", typeof age);
 
+
+// refernce type 
+
+let courses=['C','C++','java'];
+console.log("type of courses:",typeof courses);
+
+// date 
+let d=Date();
+console.log(d);
