@@ -36,7 +36,15 @@ count--;
 console.log(count);
 
 
+// Ex:3
+let result=2+3*4;
+let res=(2+3)*4
+console.log("result :",res);
 
 
+
+//Ex:4
+let concat="Hello"+"World";
+console.log(concat);
 
 
