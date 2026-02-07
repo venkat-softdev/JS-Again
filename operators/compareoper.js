@@ -28,3 +28,8 @@ console.log(a>b);
 a=40;
 b=20;
 console.log(a<b);
+
+// Ex:7
+a=30;
+b=10;
+console.log(a>=b);
