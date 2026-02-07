@@ -18,3 +18,13 @@ console.log(c===d);
 let name="venkat";
 let value=name;
 console.log(value==name);
+
+// ex:5
+a=20;
+b=30;
+console.log(a>b);
+
+// Ex:6
+a=40;
+b=20;
+console.log(a<b);
