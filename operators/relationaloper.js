@@ -24,3 +24,12 @@ if (age>=18) {
     console.log("not eligble to vote");
     
 }
+
+// Ex:3
+const car={
+    make:"Honda",
+    model:"Accord",
+    year:1995,
+}
+console.log('model' in car);
+console.log('color' in car);
