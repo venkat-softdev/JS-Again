@@ -36,3 +36,10 @@ console.log("power :",f);
 let max;
 max=Math.max(10,20,30,40,50,80);
 console.log("max value :",max);
+
+// min 
+let min=(10,20,30,40,50,4);
+min=Math.min(min);
+console.log("Min value :",min);
+
+ 
