@@ -53,3 +53,10 @@ console.log(firstname??lastname??nickname??"Anonymous");
 
 
 
+// ex:7
+const usersettings={};
+
+usersettings.theme??="dark";
+usersettings.fontsize ??=16;
+usersettings.theme??="light";
+console.log(usersettings);
