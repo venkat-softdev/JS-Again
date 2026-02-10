@@ -115,4 +115,4 @@ switch (num) {
         console.log(letter +" is not a vowel");
         
         break;
- }
+ }   
