@@ -41,7 +41,7 @@ else{
 
 // Ex:2
 
-let marks=75;
+let marks=85;
 
 if (marks>=40) {
     
@@ -57,3 +57,41 @@ if (marks>=40) {
     console.log("Failed in Exam");
     
 }
+
+//Ex:3
+
+let age=25;
+let hasqualification=true;
+
+if (age>=18) {
+    
+    if (hasqualification) {
+        console.log("You are eliegble to apply job");
+        
+    } else {
+        console.log("you need to gain the required qualification first");
+        
+    }
+} else {
+    console.log("you are not old enough to work");
+    
+}
+
+//Ex:4
+let username="admin";
+let password="correctpassword";
+
+if (username==="admin") {
+    
+    if (password==="correctpassword") {
+        
+        console.log("Access granted .welcome,admin");
+        
+    } else {
+        console.log("Incorrect Password");
+        
+    }
+} else {
+    console.log("Username not found");
+    
+} 
