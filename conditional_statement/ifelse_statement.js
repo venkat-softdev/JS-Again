@@ -28,3 +28,19 @@
      let isAdult=(age>=18)?"yes":"no";
      console.log(isAdult);
      
+     //Ex:4
+      age=25;
+      let hasID=true;
+
+      if (age>=18) {
+        if (hasID) {
+            console.log("Entry allowed");
+            
+        } else {
+            console.log("Please show ID");
+            
+        }
+      } else {
+        console.log("you are too young");
+        
+      }
