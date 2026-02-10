@@ -42,3 +42,5 @@ else{
     console.log("Grade D");
     
 }
+
+//Ex:3
