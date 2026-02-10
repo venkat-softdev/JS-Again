@@ -38,3 +38,22 @@ else{
     console.log("Result :Fail");
     
 }
+
+// Ex:2
+
+let marks=75;
+
+if (marks>=40) {
+    
+    if (marks>=80) {
+        console.log("Destinction");
+        
+    } else {
+        console.log("Passed");
+        
+    }
+
+} else {
+    console.log("Failed in Exam");
+    
+}
