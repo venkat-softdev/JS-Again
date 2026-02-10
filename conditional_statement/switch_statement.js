@@ -106,13 +106,13 @@ switch (num) {
      case'o':
      case'u':
 
-     console.log(letter+"is an vowel");
+     console.log(letter +" is an vowel");
      
         
         break;
  
     default:
-        console.log(letter+"is not a vowel");
+        console.log(letter +" is not a vowel");
         
         break;
  }
