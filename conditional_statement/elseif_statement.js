@@ -25,7 +25,7 @@ else {
     console.log(number,"number is equal to zero");
     
 }
-
+  
 //Ex:2
 let avg=75;
 if (avg>=90&&avg<=100) {
