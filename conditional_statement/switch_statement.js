@@ -1,118 +1,111 @@
-// switch statement in javascript 
+// switch statement in javascript
 
-let num=3;
+let num = 3;
 
 switch (num) {
-    case 1:
-        console.log("one");
-        
-        break;
-         
-        case 2:
-            console.log("two");
-            break;
-         
-         case 3:
-            console.log("Three");
-            break;
-               
-        default:
-            console.log("invalid number");
-            
-        break;
+  case 1:
+    console.log("one");
+
+    break;
+
+  case 2:
+    console.log("two");
+    break;
+
+  case 3:
+    console.log("Three");
+    break;
+
+  default:
+    console.log("invalid number");
+
+    break;
 }
 //Ex:2
- let fruit="apple";
- let message="";
+let fruit = "apple";
+let message = "";
 
- switch (fruit) {
-    case "banana":
-        console.log("hey it's banana");
-        
-        break;
-          
-        case"grape":
-        console.log("hey it's grape");
-        break;
+switch (fruit) {
+  case "banana":
+    console.log("hey it's banana");
 
-        case "apple":
-            console.log("hey it's apple");
-            break;
-            
-        
+    break;
+
+  case "grape":
+    console.log("hey it's grape");
+    break;
+
+  case "apple":
+    console.log("hey it's apple");
+    break;
+
+  default:
+    console.log("found another fruit");
+
+    break;
+}
+
+//Ex:3
+let day = "Saturday";
+let typeodDay = "";
+
+switch (day) {
+  case "monday":
+    console.log("It's Monday");
+
+    break;
+
+  case "Saturday":
+  case "sunday":
+    typeodDay = "It's weekend";
+    break;
+
+  default:
+    typeodDay = "It's weekday";
+    break;
+}
+console.log(typeodDay);
+
+//Ex:4
+
+function getwheatherMessage(weather) {
+  switch (weather) {
+    case "sunny":
+      return "Don't forget sunglasses";
+
+      break;
+
+    case "rainy":
+      return "Take an Umbrella";
+      break;
+
+    case "snowy":
+      return "wear warm clothes";
+      break;
+
     default:
-        console.log("found another fruit");
-        
-        break;
- };
+      return "check the forcast";
+      break;
+  }
+}
+console.log(getwheatherMessage("rainy"));
 
- //Ex:3
- let day="Saturday";
- let typeodDay=""
+// Group switch
 
- switch (day) {
-    case "monday":
-        console.log("It's Monday");
-        
-        break;
+let letter = "a";
 
-  
-        case "Saturday":
-        case "sunday":
-            typeodDay="It's weekend"
-            break;
-            
- 
-    default:
-        typeodDay="It's weekday"
-        break;
- }
- console.log(typeodDay);
- 
- //Ex:4
+switch (letter) {
+  case "a":
+  case "e":
+  case "i":
+  case "o":
+  case "u":
+    console.log(letter + " is an vowel");
 
- function getwheatherMessage(weather) {
-    
-    switch (weather) {
-        case "sunny":
-            return "Don't forget sunglasses"
-            
-            break;
+    break;
 
-            case"rainy":
-            return "Take an Umbrella"
-            break;
+  default:
+    console.log(letter + " is not a vowel");
 
-            case "snowy":
-                return "wear warm clothes"
-                break;
-    
-        default:
-            return "check the forcast"
-            break;
-    }
- }
- console.log(getwheatherMessage("rainy"));
- 
-
- // Group switch 
-
- let letter='a';
-
- switch (letter) {
-    case 'a':
-     case'e' :
-     case'i':
-     case'o':
-     case'u':
-
-     console.log(letter +" is an vowel");
-     
-        
-        break;
- 
-    default:
-        console.log(letter +" is not a vowel");
-        
-        break;
- }   
+    break;
+}
