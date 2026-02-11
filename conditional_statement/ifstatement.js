@@ -20,7 +20,7 @@ if (isRaining) {
 //Ex:3
 let score=75;
 if (score>=90) {
-    console.log("Grade A");
+    console.log("Grade A"); 
     
 }
 else if (score>=80) {
