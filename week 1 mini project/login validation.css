@@ -31,3 +31,11 @@ button{
     background-color: #1B9CFC;
     color: #fff;
 }
+
+#msg{
+    background-color: greenyellow;
+    padding: 10px;
+    width: 200px;
+    text-align: center; 
+    display: none;
+}
