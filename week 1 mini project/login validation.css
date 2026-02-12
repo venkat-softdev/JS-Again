@@ -1,3 +1,33 @@
 *{
     font-family: 'poppins';
 }
+body{
+    width: 100%;
+    height: 100vh;
+  
+}
+.box{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px
+}
+.box input{
+    width: 200px;
+    border: none;
+    background-color: pink;
+    padding: 10px;
+    border-radius: 3px;
+    outline: 2px solid #FC427B;
+}
+button{
+    margin-top: 10px;
+    width: 100px;
+    padding: 7px;
+    border-radius: 3px;
+    border: none;
+    background-color: #1B9CFC;
+    color: #fff;
+}
