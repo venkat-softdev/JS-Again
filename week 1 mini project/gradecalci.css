@@ -40,3 +40,10 @@ body{
     border-radius: 2px;
 
 }
+#out{
+    background-color: #1e272e;
+    padding: 10px;
+    width: 200px;
+    border-radius: 3px;
+    display: none;
+}
