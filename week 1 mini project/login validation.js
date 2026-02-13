@@ -1,21 +1,20 @@
 // javascript starting 
 
 const btn=document.querySelector("#btn");
-btn.addEventListener("click",login)
+btn.addEventListener("click",logfun);
 
-function login() {
+function logfun() {
     
-    let user=document.querySelector("#user").value;
+    let username=document.querySelector("#user").value;
     let pass=document.querySelector("#pass").value;
-    let msg=document.querySelector("#msg");
+    let msg=document.querySelector("#msg")
 
-    if (user==="") {
-        msg.textContent="Username Required"
+    if (username=="") {
+        msg.textContent="Username required"
         msg.style.display="block"
-
     }
     else if (pass.length < 6) {
-        msg.textContent="Password must be 6 letters"
+        msg.textContent="Password Must be 6 Digits"
         msg.style.display="block"
     }
     else {
