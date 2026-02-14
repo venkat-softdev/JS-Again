@@ -21,6 +21,6 @@ function calculate(op) {
     }
 
     let output=document.querySelector("#output");
-    output.innertText="Reult :"+ result;
+    output.innerHTML="Result :"+ result;
     output.style.display="block"
 }
