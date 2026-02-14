@@ -9,10 +9,10 @@ function check() {
 
     if (num%2==0) {
         let answer=document.querySelector("#answer")
-        answer.textContent="Even Number"
+        answer.textContent= num +" is a Even Number"
         answer.style.display="block"
     } else {
-        answer.textContent="Odd Number"
+        answer.textContent=num +" hey is a Odd Number"
         answer.style.display="block"
     }
 }
