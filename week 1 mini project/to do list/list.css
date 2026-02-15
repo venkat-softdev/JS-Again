@@ -28,4 +28,10 @@ button{
     font-weight: 600;
     font-size: 16px;
     border-radius: 3px;
+    display: block;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
 }
