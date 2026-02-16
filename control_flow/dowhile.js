@@ -37,8 +37,4 @@ do{
 
  //Ex:4
 
- let num;
-
- do {
-   num="please enter a number graeter than 100 :"
- } while (condition);
+ 
