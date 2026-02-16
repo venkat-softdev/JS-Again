@@ -1,4 +1,4 @@
-// do while loop in javascript 
+// do while loop in javascript
 
 /* 
 do{
@@ -7,34 +7,30 @@ do{
  while(condition)
 */
 
- let table=2;
- let limit=10;
- let i=1;
+let table = 2;
+let limit = 10;
+let i = 1;
 
- do {
-    console.log(table +" X "+i+"="+(table*i));
-    i++
-    
- } while (i<=limit);
+do {
+  console.log(table + " X " + i + "=" + table * i);
+  i++;
+} while (i <= limit);
 
+// Ex:2
 
- // Ex:2
+i = 0;
 
- i=0;
+do {
+  console.log("The Number is " + i);
+  i++;
+} while (i < 5);
 
- do {
-   console.log("The Number is "+i);
-   i++;
- } while (i<5);
+//Ex:3
 
- //Ex:3
+let x = 10;
+do {
+  console.log("This will run at least once .X is: " + x);
+  x++;
+} while (x < 5);
 
- let x=10;
- do {
-   console.log("This will run at least once .X is: "+x);
-   x++
- } while (x<5);
-
- //Ex:4
-
- 
+//Ex:4
