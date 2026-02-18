@@ -36,3 +36,17 @@ for (const res in numbers) {
     
 }
 console.log(txt);
+
+//Ex:4
+
+let obj={
+    a:1,
+    b:2,
+    c:3
+}
+for (const out in obj) {
+   
+    console.log(out+":"+obj[out]);
+    
+    
+}
