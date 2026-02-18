@@ -12,3 +12,27 @@ for (const prop in user) {
     
     
 }
+
+//Ex:2
+let person={
+    name:"ajai",
+    age:39
+}
+
+for (const val in person) {
+    console.log(val,person[val]);
+    
+    
+    
+}
+
+//Ex:3
+const numbers=[10,20,30,40,50];
+let txt=""
+
+for (const res in numbers) {
+   
+    txt=txt+numbers[res]+" "
+    
+}
+console.log(txt);
