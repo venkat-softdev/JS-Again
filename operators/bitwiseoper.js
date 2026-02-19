@@ -1,1 +1,1 @@
-// Bitwise operator in js 
+// Bitwise operator in js
