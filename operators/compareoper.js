@@ -1,35 +1,35 @@
-// comparison operator in javascript 
+// comparison operator in javascript
 
-let a=20;
-let b=30;
-console.log(a==b);
+let a = 20;
+let b = 30;
+console.log(a == b);
 
 // ex:2
-a=10;
-b="10";
-console.log(a==b);
+a = 10;
+b = "10";
+console.log(a == b);
 
 // Ex:3
-let c=10;
-let d="10";
-console.log(c===d);
+let c = 10;
+let d = "10";
+console.log(c === d);
 
 // Ex:4
-let name="venkat";
-let value=name;
-console.log(value==name);
+let name = "venkat";
+let value = name;
+console.log(value == name);
 
 // ex:5
-a=20;
-b=30;
-console.log(a>b);
+a = 20;
+b = 30;
+console.log(a > b);
 
 // Ex:6
-a=40;
-b=20;
-console.log(a<b);
+a = 40;
+b = 20;
+console.log(a < b);
 
 // Ex:7
-a=30;
-b=10;
-console.log(a>=b);
+a = 30;
+b = 10;
+console.log(a >= b);

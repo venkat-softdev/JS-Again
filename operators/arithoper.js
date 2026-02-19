@@ -40,4 +40,3 @@ console.log("result :", res);
 //Ex:4
 let concat = "Hello" + "World";
 console.log(concat);
-    
