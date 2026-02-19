@@ -35,4 +35,3 @@ function getfun() {
   head.textContent = `${count} clicks so far`;
   count = count + 1;
 }
-
