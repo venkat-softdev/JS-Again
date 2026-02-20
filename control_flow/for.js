@@ -35,3 +35,15 @@ for (let i = 2; i <= 10; i+=2) {
   
 }
 console.log(box);
+
+// ex:6
+for (let i = 1; i<=3; i++) {
+  let row=""
+  for (let j = 1; j<=3; j++) {
+   row+=(i*j)+" "
+    
+  }
+  console.log(row);
+  
+  
+}
