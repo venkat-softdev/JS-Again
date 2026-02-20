@@ -76,3 +76,14 @@ while (i<cars.length) {
   
 }
 console.log(carbox);
+
+//Ex:8
+ i=0;
+while (i<5) {
+  console.log(i);
+  i++;
+  if (i===3) {
+    break;
+  }
+  
+}
