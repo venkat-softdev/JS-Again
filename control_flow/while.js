@@ -63,3 +63,16 @@ while (count < 10) {
   }
   console.log(count + " count is a odd number");
 }
+
+//Ex:7
+let carbox=[]
+let cars=['BMW','Volvo','Saab','Ford'];
+i=0;
+while (i<cars.length) {
+  
+  carbox.push(cars[i])
+
+  i++
+  
+}
+console.log(carbox);
