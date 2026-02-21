@@ -22,3 +22,14 @@ for (let i = 0; i <=10; i++) {
     
     
 }
+console.log('next');
+
+//Ex:3
+for (let i = 0; i <=10; i++) {
+    
+    if (i===3) {
+        continue;
+    }
+    console.log(i);
+    
+}
