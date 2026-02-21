@@ -33,3 +33,15 @@ for (let i = 0; i <=10; i++) {
     console.log(i);
     
 }
+console.log('next next');
+
+//Ex:4
+let i=0;
+while (i<5) {
+    i++;
+    if (i===3) {
+        continue;
+    }
+    console.log(i);
+    
+}
