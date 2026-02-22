@@ -26,3 +26,13 @@ console.log(fullname);
 let score=85;
 let result='final score: ' + score + ' points ';
 console.log(result);
+
+//Ex:5
+let words=['code','is','fun'];
+let sentence=words.join(" ");
+console.log(sentence);
+
+//ex:6
+let items=['apple','banana','cherry'];
+let list=items.join(",");
+console.log(list);
