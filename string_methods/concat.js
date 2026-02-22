@@ -15,3 +15,14 @@ const combined=letters.concat(numbers)
 console.log(combined);
 
 //Ex:3
+
+let firstname="john";
+let lastname='Doe';
+
+let fullname=firstname+" "+lastname;
+console.log(fullname);
+
+//Ex:4
+let score=85;
+let result='final score: ' + score + ' points ';
+console.log(result);
