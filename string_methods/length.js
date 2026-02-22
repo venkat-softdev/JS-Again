@@ -23,3 +23,8 @@ for (let i = 0; i < nums.length; i++) {
    
     
 }
+
+//ex:5
+ arr=[];
+arr.length=5;
+console.log(arr);
