@@ -26,3 +26,4 @@ const lowertags=tags.map((tag)=>{
     return tag.toLowerCase()
 })
 console.log(lowertags);
+ 
