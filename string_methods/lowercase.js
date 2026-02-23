@@ -19,3 +19,10 @@ else{
     console.log('not Access');
     
 }
+
+//Ex;4
+const tags=['javascript','HTML','CSS'];
+const lowertags=tags.map((tag)=>{
+    return tag.toLowerCase()
+})
+console.log(lowertags);
