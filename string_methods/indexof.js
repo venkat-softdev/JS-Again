@@ -26,3 +26,12 @@
  console.log(position2);
  
  
+ //ex:4
+ const email="example@gmail.com";
+ if (email.indexOf('@')!=-1) {
+    console.log('valid email format');
+    
+ } else {
+    console.log('Invalid email format');
+    
+ }
