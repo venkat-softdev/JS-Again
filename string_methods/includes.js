@@ -15,3 +15,4 @@ console.log(colors.includes('blue',4));
 //ex:4
 const sentence='javavascript is awesome';
 console.log(sentence.includes('is'));
+
