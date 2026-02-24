@@ -22,4 +22,7 @@
  const position1=greeting.indexOf('World');
  console.log(position1);
  
+ const position2=greeting.indexOf('World');
+ console.log(position2);
+ 
  
