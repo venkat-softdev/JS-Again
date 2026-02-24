@@ -35,3 +35,15 @@
     console.log('Invalid email format');
     
  }
+ //ex:5
+
+ const fruits=['apple','banana','mango','orange'];
+ const index=fruits.indexOf('mango');
+ console.log(index);
+ 
+ //ex:6
+ const scores=[10,20,30,40,50];
+ console.log(scores.indexOf(30));;
+ console.log(scores.indexOf(99));
+ 
+ 
