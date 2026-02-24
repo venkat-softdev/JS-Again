@@ -19,3 +19,5 @@ console.log(result);
 let longtext='the concept of immutability is cruicial when you are working';
 let truncatedtext=longtext.substring(0,20)+"...";
 console.log(truncatedtext);
+
+
