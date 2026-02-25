@@ -26,3 +26,11 @@ console.log(padnum);
 //Ex:5
 const str2='abc';
 console.log(str2.padStart(10,'foo'));
+
+//ex:6
+const str3='Hi';
+console.log(str3.padEnd(10,'!'));
+
+//Ex:7
+const str4='code';
+console.log(str4.padEnd(10,'javascript'));
