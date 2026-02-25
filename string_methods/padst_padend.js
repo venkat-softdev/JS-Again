@@ -1,0 +1,24 @@
+// padstart and padend in javacsript 
+
+let a='5';
+a=a.padStart(4,0);
+console.log(a);
+
+let b='5';
+b=b.padEnd(4,0);
+console.log(b);
+
+//ex:2
+
+const str='abc';
+console.log(str.padStart(10));
+
+//ex:3
+let num='5';
+let padnum=String(num).padStart(5,'0');
+console.log(padnum);
+
+//ex:4
+num='123';
+padnum=String(num).padStart(6,'0');
+console.log(padnum);
