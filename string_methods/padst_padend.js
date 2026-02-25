@@ -35,3 +35,4 @@ console.log(str3.padEnd(10,'!'));
 const str4='code';
 console.log(str4.padEnd(10,'javascript'));
 
+
