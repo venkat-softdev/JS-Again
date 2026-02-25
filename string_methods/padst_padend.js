@@ -22,3 +22,7 @@ console.log(padnum);
 num='123';
 padnum=String(num).padStart(6,'0');
 console.log(padnum);
+
+//Ex:5
+const str2='abc';
+console.log(str2.padStart(10,'foo'));
