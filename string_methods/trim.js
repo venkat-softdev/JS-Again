@@ -1,5 +1,4 @@
-// trim in javavscript 
+// trim in javavscript
 
-const name=' james ';
+const name = " james ";
 console.log(name.trimStart());
-
