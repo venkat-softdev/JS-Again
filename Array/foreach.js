@@ -63,3 +63,12 @@ numb.forEach((nums)=>{
 })
 
 //ex:7
+
+let evennums=[];
+let values=[1,2,3,4,5,6,7,8,9,10];
+values.forEach((val)=>{
+    if (val%2==0) {
+        evennums.push(val)
+    }
+})
+console.log(evennums);
