@@ -6,3 +6,20 @@ the callback function accumulates a result based on provided logic.
 syntax:
 array.reduce(callback,initialvalue)
 */
+
+//Ex:1
+
+let numbers=[1,2,3,4,5];
+let sum=numbers.reduce((accumulator,value)=>{
+    return accumulator+value
+});
+console.log(sum);
+
+//Ex:2
+let nestedarray=[[1,2],[3,4],[5,6]];
+let flattenedArry=nestedarray.reduce((accumulator,values)=>{
+    return accumulator.concat(values)
+})
+console.log(flattenedArry);
+
+//Ex:3
