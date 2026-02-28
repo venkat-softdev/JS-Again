@@ -32,3 +32,12 @@ numbers.forEach((nums)=>{
 console.log(doublenum);
 
 //ex:4
+
+let num=[1,2,3,4,5,6,7,8];
+let max=num[0];
+num.forEach((nums)=>{
+    if (nums>max) {
+        max=nums
+    }
+})
+console.log(max);
