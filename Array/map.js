@@ -23,3 +23,12 @@ const capitalwords=words.map((word)=>{
     return word.toUpperCase()
 })
 console.log(capitalwords);
+
+//Ex:3
+const fruits=['apple','mango'];
+const colors=['Red','yellow'];
+
+const fruitcolors=fruits.map((fruit,index)=>{
+    return fruit+" - "+colors[index]
+})
+console.log(fruitcolors);
