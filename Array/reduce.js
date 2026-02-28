@@ -23,3 +23,15 @@ let flattenedArry=nestedarray.reduce((accumulator,values)=>{
 console.log(flattenedArry);
 
 //Ex:3
+let colors=['red','blue','green','red','yellow'];
+
+let colorCount=colors.reduce((accumulator,currentvalue)=>{
+    if (currentvalue in accumulator) {
+        accumulator[currentvalue]++;
+    }
+    else{
+        accumulator[currentvalue]=1
+    }
+    return accumulator
+},{})
+console.log(colorCount);
