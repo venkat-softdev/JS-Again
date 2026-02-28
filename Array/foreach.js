@@ -72,3 +72,10 @@ values.forEach((val)=>{
     }
 })
 console.log(evennums);
+
+//ex:8
+let persons=['venkat','yuva','arish'];
+persons.forEach((person,index)=>{
+    persons[index]=person.toUpperCase()
+})
+console.log(persons);
