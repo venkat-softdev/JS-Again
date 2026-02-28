@@ -50,3 +50,9 @@ let fruits=items.filter((item)=>{
 console.log(fruits);
 
 //ex:5
+let searchwords=['cat','dog','caterpillar','monkey'];
+
+let findingwords=searchwords.filter((word)=>{
+    return word.startsWith('c')
+})
+console.log(findingwords);
