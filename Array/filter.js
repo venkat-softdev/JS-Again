@@ -24,3 +24,12 @@ let eligible=users.filter((user)=>{
     return user.age>18
 })
 console.log(eligible);
+
+//ex:3
+
+let words=['cat','monkey','dog','rabbit','elephant'];
+
+let eligiblewords=words.filter((word)=>{
+    return word.length>=3&&word.length<=6
+})
+console.log("That is eligible words:"+ eligiblewords);
