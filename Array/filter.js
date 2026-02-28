@@ -7,3 +7,10 @@ syntax:
 array.filter()
 */
 //ex:1 
+let numbers=[1,2,3,4,5,6,7,8,9,10];
+let evennums=numbers.filter((num)=>{
+    return num%2==0
+})
+console.log(evennums);
+
+//ex:2
