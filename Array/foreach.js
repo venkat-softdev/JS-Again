@@ -41,3 +41,14 @@ num.forEach((nums)=>{
     }
 })
 console.log(max);
+
+//ex:5
+num=[10,20,30,40,2];
+let min=num[0];
+num.forEach((nums)=>{
+    if (nums<min) {
+        min=nums
+    }
+})
+console.log(min);
+
