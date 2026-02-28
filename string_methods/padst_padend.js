@@ -34,3 +34,7 @@ console.log(str3.padEnd(10, "!"));
 //Ex:7
 const str4 = "code";
 console.log(str4.padEnd(10, "javascript"));
+
+//ex:8
+const str5='6';
+console.log(str5.padStart(3,0));
