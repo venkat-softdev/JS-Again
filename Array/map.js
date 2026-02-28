@@ -15,3 +15,5 @@ const doublenums=numbers.map((nums)=>{
     return nums*2
 })
 console.log(doublenums);
+
+//Ex:2
