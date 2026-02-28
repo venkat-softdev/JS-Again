@@ -33,3 +33,18 @@ let eligiblewords=words.filter((word)=>{
     return word.length>=3&&word.length<=6
 })
 console.log("That is eligible words:"+ eligiblewords);
+
+//ex:4
+
+let items=[
+
+    {name:'apple',category:'fruits'},
+    {name:'onion',category:'vegetable'},
+    {name:'banana',category:'fruits'},
+    {name:'brinjal',category:'vegetable'}
+];
+
+let fruits=items.filter((item)=>{
+    return item.category=='fruits'
+})
+console.log(fruits);
