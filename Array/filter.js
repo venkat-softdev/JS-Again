@@ -14,3 +14,13 @@ let evennums=numbers.filter((num)=>{
 console.log(evennums);
 
 //ex:2
+let users=[
+    {name:"venkat",age:20},
+    {name:"Yuva",age:15},
+    {name:"arish",age:20}
+];
+
+let eligible=users.filter((user)=>{
+    return user.age>18
+})
+console.log(eligible);
