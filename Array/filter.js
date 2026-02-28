@@ -56,3 +56,4 @@ let findingwords=searchwords.filter((word)=>{
     return word.startsWith('c')
 })
 console.log(findingwords);
+
