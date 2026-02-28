@@ -48,3 +48,5 @@ let fruits=items.filter((item)=>{
     return item.category=='fruits'
 })
 console.log(fruits);
+
+//ex:5
