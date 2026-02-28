@@ -30,3 +30,5 @@ numbers.forEach((nums)=>{
     doublenum.push(nums*2)
 })
 console.log(doublenum);
+
+//ex:4
