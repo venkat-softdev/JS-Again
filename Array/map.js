@@ -59,3 +59,17 @@ const update=users.map((user)=>{
         age:user.age+1
     }
 })
+
+//Ex:6
+const word=['apple','banana','cherry'];
+const wordstates=word.map(function (value,index,array) {
+    
+    return{
+        word:value,
+        length:value.length,
+        position:index,
+        totalwords:array
+    };
+
+})
+console.log(wordstates);
