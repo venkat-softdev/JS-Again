@@ -17,3 +17,9 @@ const doublenums=numbers.map((nums)=>{
 console.log(doublenums);
 
 //Ex:2
+const words=['hello','world'];
+const capitalwords=words.map((word)=>{
+
+    return word.toUpperCase()
+})
+console.log(capitalwords);
