@@ -10,7 +10,7 @@ array.map()
 */
 
 //ex:1
-const numbers=[1,2,3,4,5,6,7,8,9,10];
+let numbers=[1,2,3,4,5,6,7,8,9,10];
 const doublenums=numbers.map((nums)=>{
     return nums*2
 })
@@ -32,3 +32,30 @@ const fruitcolors=fruits.map((fruit,index)=>{
     return fruit+" - "+colors[index]
 })
 console.log(fruitcolors);
+
+//Ex:4
+numbers=[1,2,3,4,5];
+const evennumbers=numbers.map((num)=>{
+    return num%2==0
+})
+console.log(evennumbers);
+
+//Ex:5
+
+const users=[
+
+    {name:'venkat',age:20},
+    {name:'sam',age:25},
+    {name:'yuva',age:17}
+]
+const names=users.map((user)=>{
+    return user.name
+})
+console.log(names);
+
+const update=users.map((user)=>{
+    return {
+        name:user.name,
+        age:user.age+1
+    }
+})
