@@ -35,3 +35,4 @@ let colorCount=colors.reduce((accumulator,currentvalue)=>{
     return accumulator
 },{})
 console.log(colorCount);
+
