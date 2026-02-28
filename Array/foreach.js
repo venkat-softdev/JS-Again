@@ -52,3 +52,14 @@ num.forEach((nums)=>{
 })
 console.log(min);
 
+//ex:6
+ let numb=[1,2,3,4,5];
+total=0
+numb.forEach((nums)=>{
+    
+    total+=nums;
+    console.log(total/numb.length);
+    
+})
+
+//ex:7
