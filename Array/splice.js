@@ -32,3 +32,9 @@ const n4=[1,2,3,4,5,6,7,8,9,10];
 console.log(n4.splice(2,0,100,300));
 console.log(n4);
 
+//ex:5
+const fruits=['Banana','orange','lemon','apple','mango'];
+const citrus=fruits.splice(1,3);
+console.log(citrus);
+
+
