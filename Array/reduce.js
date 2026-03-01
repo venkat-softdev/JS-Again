@@ -36,3 +36,10 @@ let colorCount=colors.reduce((accumulator,currentvalue)=>{
 },{})
 console.log(colorCount);
 
+//Ex:4
+const array=[1,2,3,4,5];
+const initialvalue=0;
+const sumwithvalue=array.reduce((acc,value)=>{
+    return acc+value
+})
+console.log(sumwithvalue);
