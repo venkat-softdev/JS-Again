@@ -34,3 +34,14 @@ users.sort((a,b)=>{
     return a.age-b.age
 })
 console.table(users);
+
+//ex:4
+const fruits=['March','jan','feb','Dec'];
+console.log(fruits.sort());
+
+//Ex:25
+const numbers=[40,1,5,200];
+numbers.sort((a,b)=>{
+    return a-b
+})
+console.log(numbers);
