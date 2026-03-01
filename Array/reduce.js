@@ -43,3 +43,10 @@ const sumwithvalue=array.reduce((acc,value)=>{
     return acc+value
 })
 console.log(sumwithvalue);
+
+//Ex:5
+const values=[[10,20],[30,40],[50]];
+let result=values.reduce((acc,value)=>{
+    return acc.concat(value)
+})
+console.log(result);
