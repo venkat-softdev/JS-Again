@@ -33,4 +33,4 @@ let users=[
 users.sort((a,b)=>{
     return a.age-b.age
 })
-console.log(users);
+console.table(users);
