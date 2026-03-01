@@ -1,6 +1,7 @@
 // sort in array methods javavscript 
 /*
-
+In javascript sort methods arranging the array to ascending and descending order 
+it can be change the original array its is a mutating methods
 */
 
 //Ex:1
