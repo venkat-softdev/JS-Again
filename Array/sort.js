@@ -23,3 +23,14 @@ num.sort((a,b)=>{
 })
 console.log(num);
 
+//Ex:3
+let users=[
+    {name:'venkat',age:20},
+    {name:'yuva',age:16},
+    {name:'arish',age:19},
+    {name:'jigky',age:7}
+]
+users.sort((a,b)=>{
+    return a.age-b.age
+})
+console.log(users);
