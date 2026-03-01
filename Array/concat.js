@@ -14,3 +14,7 @@ const c=a.concat(b);
 console.log(c);
 
 //ex:2
+const firstname='venkat';
+const lastname='kakakshi';
+console.log(firstname.concat(" "+lastname));
+
