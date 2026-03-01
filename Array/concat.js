@@ -12,3 +12,5 @@ const a=[10,20,30];
 const b=[40,50];
 const c=a.concat(b);
 console.log(c);
+
+//ex:2
