@@ -26,3 +26,9 @@ console.log(n2);
 const n3=[1,2,3,4,5,6,7,8,9,10];
 console.log("Removed items:"+n3.splice(2,2,25,36));
 console.log("after elements:"+n3);
+
+// Ex:4
+const n4=[1,2,3,4,5,6,7,8,9,10];
+console.log(n4.splice(2,0,100,300));
+console.log(n4);
+
