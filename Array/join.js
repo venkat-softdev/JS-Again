@@ -12,3 +12,16 @@
  
  console.log(products.join());
  
+ //ex:2
+ const matrix=[
+    [1,2,3],
+    [4,5,6],
+    [7,8,9]
+ ]
+ console.log(matrix.join("|"));
+ 
+ //ex:3
+ const arr=[];
+ arr.push(1,[3,arr,4],2);
+ console.log(arr.join(';'));
+ 
