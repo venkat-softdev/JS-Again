@@ -18,3 +18,14 @@
  const total=sports.push('football','volleyball')
  console.log('After :'+sports);
  
+ //ex:3
+ const vegetables=['parsnip','potato'];
+ const morevegs=['celery','beetroot'];
+ vegetables.push(...morevegs);
+ console.log(vegetables);
+ 
+ //ex:4
+ const animals=['pigs','goat','sheep'];
+ animals.push('cow');
+ console.log(animals);
+ 
