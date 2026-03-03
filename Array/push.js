@@ -11,4 +11,10 @@
  console.log(n.push(6));
  console.log(n);
  
+ //ex:2
+ const sports=['soccer','baseball'];
+ console.log('before:'+sports);
+ 
+ const total=sports.push('football','volleyball')
+ console.log('After :'+sports);
  
