@@ -19,4 +19,13 @@ console.log(pets.includes('dog'));
 console.log(pets.includes('cow'));
 
 //ex:4
-const 
+const numbers=[1,2,3,4,5];
+console.log(numbers.includes(3,2));
+console.log(numbers.includes(3,3));
+
+//ex:5
+const title='Mastering javavscript in 30 days';
+console.log(title.includes('java'));
+console.log(title.includes('java',5));
+console.log(title.includes('python'));
+
