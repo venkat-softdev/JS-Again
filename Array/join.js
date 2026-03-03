@@ -10,3 +10,5 @@
  const products=['pen','pencil','scale','eraser'];
  console.log(products.join('|'));
  
+ console.log(products.join());
+ 
