@@ -25,3 +25,13 @@
  arr.push(1,[3,arr,4],2);
  console.log(arr.join(';'));
  
+ //ex:4
+ const a=['wind','water','fire'];
+ console.log(a.join());
+ console.log(a.join(','));
+ console.log(a.join('+'));
+ console.log(a.join(''));
+ 
+ 
+ 
+ 
