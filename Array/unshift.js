@@ -16,4 +16,8 @@
  console.log(array);
  
  //ex:3
+
+ let arr1=[4,5,6];
+ arr1.unshift(1,2,3);
+ console.log(arr1);
  
