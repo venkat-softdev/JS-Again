@@ -22,3 +22,8 @@ const plants=['brocolli','cauliflower','cabbege','kale','tomato'];
 console.log(plants.pop());
 console.log(plants);
 
+//ex:4
+const fruits=['banana','orange','Apple','mango'];
+console.log(fruits.pop());
+console.log(fruits);
+
