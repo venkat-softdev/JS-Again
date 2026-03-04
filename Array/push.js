@@ -29,4 +29,10 @@
  animals.push('cow');
  console.log(animals);
  
+  //ex:5
+  let user1=['Ram','sam','ravi'];
+  let user2=['rajesh','kumar'];
+
+  user1.push(...user2);
+  console.log(user1);
   
