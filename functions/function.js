@@ -25,3 +25,11 @@
  }
  console.log(multiply(5,2));
  
+ //ex:4
+ const sum=(a,b)=>{
+    console.log(a+b);
+    return a+b
+    
+ }
+ console.log(sum(5,3));
+ 
