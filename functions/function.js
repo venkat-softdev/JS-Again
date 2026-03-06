@@ -33,3 +33,14 @@
  }
  console.log(sum(5,3));
  
+ //ex:5
+ function addvalue() {
+    let total=0;
+    for (let i = 0; i < arguments.length; i++) {
+        total+=arguments[i]
+        
+    }
+    return total
+ }
+
+console.log(addvalue(10,40,50));
