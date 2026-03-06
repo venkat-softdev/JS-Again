@@ -78,3 +78,14 @@ function addsum(a,b) {
 console.log(addsum(100,200));
 
 //ex:9
+function evenum(num) {
+    if (num%2==0) {
+        console.log('even number');
+        
+    } else {
+        console.log('odd number');
+        
+    }
+    
+}
+evenum(20)
