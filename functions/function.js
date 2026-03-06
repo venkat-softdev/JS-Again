@@ -13,3 +13,9 @@
  }
  console.log(add(10,20));
  
+ //EX:2
+ function square(number){
+   return number*number
+ }
+ console.log(square(5));
+ 
