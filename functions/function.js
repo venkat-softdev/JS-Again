@@ -54,3 +54,27 @@ function total(...args) {
     return total
 }
 console.log(total(10,20,30,40,50,60,70));
+
+//ex:7
+function greet() {
+    console.log('Hello Venkat');
+    
+}
+greet()
+
+
+//ex:8
+function printmsg() {
+    console.log('Welcome to javacsript functions');
+    
+}
+printmsg()
+
+//ex:8
+function addsum(a,b) {
+    
+    return a+b
+}
+console.log(addsum(100,200));
+
+//ex:9
