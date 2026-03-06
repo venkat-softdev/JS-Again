@@ -25,7 +25,7 @@ let isAdult = age >= 18 ? "yes" : "no";
 console.log(isAdult);
 
 //Ex:4
-age = 25;
+age = 25; 9
 let hasID = true;
 
 if (age >= 18) {
