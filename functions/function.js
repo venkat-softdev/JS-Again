@@ -19,3 +19,9 @@
  }
  console.log(square(5));
  
+ //ex:3
+ const multiply=function (x,y) {
+    return x*y
+ }
+ console.log(multiply(5,2));
+ 
