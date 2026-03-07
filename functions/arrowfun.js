@@ -39,3 +39,17 @@ let eligiblewords=words.filter((word)=>{
     return word.length>5
 })
 console.log(eligiblewords);
+
+//ex:7
+let colors=['blue','red','green','yellow','blue'];
+
+let count=colors.reduce((acc,value)=>{
+    if (value in acc) {
+        accumulator[currentvalue]++
+    }
+    else{
+        accumulator[currentvalue]=1
+    }
+    return accumulator
+})
+console.log(count);
