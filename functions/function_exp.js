@@ -18,3 +18,25 @@
  }
  console.log(evenumbers(1));
  
+ //ex:3
+ let gradechecker=function (mark) {
+    if (mark>=90&& mark<=100) {
+        console.log('Grade A');
+        
+    }
+    else if (mark>=71&&mark<=89) {
+        console.log('Grade B');
+        
+    }
+    else if (mark>=50 && mark<=70) {
+        console.log('Grade c');
+        
+    }
+    else{
+        console.log('Fail the Exam');
+        
+    }
+   return mark
+ }
+ console.log(gradechecker(89));
+ 
