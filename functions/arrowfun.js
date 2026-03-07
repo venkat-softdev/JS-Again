@@ -24,7 +24,7 @@ values.forEach((value)=>{
 console.log(max);
 
 //ex:5
-let value=[1,20,30,40,50];
+let value=[10,2,30,40,50];
 let min=value[0]
 value.forEach((val)=>{
     if (val<min) {
@@ -32,3 +32,10 @@ value.forEach((val)=>{
     }
 })
 console.log(min);
+
+//ex:6
+let words=['apple','banana','orange','dragonfruit'];
+let eligiblewords=words.filter((word)=>{
+    return word.length>5
+})
+console.log(eligiblewords);
