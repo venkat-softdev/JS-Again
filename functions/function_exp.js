@@ -40,3 +40,19 @@
  }
  console.log(gradechecker(89));
  
+
+ // ex:4
+ let eligibletowork=function (age) {
+    
+    if (age>=20&& age<=60) {
+        console.log('eligible to work');
+        
+    }
+    else{
+        console.log('not eligible');
+        
+    }
+    return age
+ }
+ console.log(eligibletowork(10));
+ 
