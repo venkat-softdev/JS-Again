@@ -89,3 +89,11 @@ function evenum(num) {
     
 }
 evenum(20)
+
+//ex:9
+function addnumbers(a,b) {
+    
+    return a+b
+
+}
+console.log(addnumbers(30,70));
