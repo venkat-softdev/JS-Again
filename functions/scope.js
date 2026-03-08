@@ -12,4 +12,13 @@ if (true) {
     console.log(blockscope);
     
 }
-console.log(blockscope);
+
+
+
+//ex:3
+if (true) {
+    var globalscope='Hi im globbal scope'
+    console.log(globalscope);
+    
+}
+
