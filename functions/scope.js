@@ -22,3 +22,28 @@ if (true) {
     
 }
 
+
+//function scope
+
+function myfun() {
+    let funscope='im function scope'
+    console.log(funscope);
+    
+}
+myfun()
+
+//ex:2
+function examplefun() {
+    const x='declared inside function';
+    console.log('inside funtion');
+    console.log(x);
+    
+    
+}
+
+{
+    const x=1;
+    console.log(x);
+    
+}
+
