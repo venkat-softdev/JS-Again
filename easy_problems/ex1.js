@@ -32,3 +32,13 @@ for (let i = 0; i < 10; i++) {
     console.log('the next value:',i);
     
 }
+
+//ex:4
+for (let i = 0; i <= 5; i++) {
+    
+    if (i==4) {
+        continue
+    }
+    console.log('the value:',i);
+    
+}
