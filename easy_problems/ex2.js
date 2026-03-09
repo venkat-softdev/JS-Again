@@ -21,3 +21,15 @@ for (let i = 0; i <20; i++) {
     }
     
 }
+
+//ex:3
+
+let numbers=[1,2,3,4,5,6,7,8,9,10];
+let evennumbers=[];
+
+numbers.forEach((num)=>{
+   if (num%2==0) {
+     evennumbers.push(num)
+   }
+})
+console.log('evenNumbers :',evennumbers);
