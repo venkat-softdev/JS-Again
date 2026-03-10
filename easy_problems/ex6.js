@@ -21,3 +21,26 @@ let evenvalues = values.filter((val)=>{
 })
 
 console.log(evenvalues);
+
+let nums=[1,2,3,4,5];
+if (nums%2==0) {
+    console.log('even');
+    
+}
+else{
+    console.log('odd');
+    
+}
+
+//ex:4
+function check(num) {
+    if (num%2==0) {
+        console.log('evenvalue');
+        
+    }
+    else{
+        console.log('oddvalue');
+        
+    }
+}
+check(4)
