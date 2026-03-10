@@ -12,3 +12,12 @@ numbers.forEach((num)=>{
 console.log(evennums);
 
 //ex:2
+
+
+let values=[11,20,33,40,55];
+
+let evenvalues = values.filter((val)=>{
+    return val % 2 == 0
+})
+
+console.log(evenvalues);
