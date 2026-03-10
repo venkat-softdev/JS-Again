@@ -16,3 +16,18 @@ arrays.forEach((arr)=>{
     }
 })
 console.log(max);
+
+//ex:3
+
+let values=[10,20,30,90,50];
+let maxi=values[0]
+
+for (let i = 0; i < values.length; i++) {
+    
+    if (values[i] > maxi) {
+        maxi=values[i]
+        
+    }
+    
+}
+console.log(maxi);
