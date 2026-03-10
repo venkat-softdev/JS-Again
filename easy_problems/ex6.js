@@ -44,3 +44,21 @@ function check(num) {
     }
 }
 check(4)
+
+//ex:5
+let arr1=[1,2,3,4,5,6,7,8,9,10];
+let arr2=arr1.filter((ar)=>{
+    return ar % 2 == 0
+})
+console.log(arr2);
+
+//ex:6
+let array1=[1,2,3,4,5,6,7,8,9,10];
+let newvalue=[]
+array1.forEach((arr)=>{
+    if (arr % 2 == 0) {
+        newvalue.push(arr)
+    }
+})
+console.log(newvalue);
+
