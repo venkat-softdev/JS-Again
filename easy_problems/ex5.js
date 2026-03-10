@@ -23,3 +23,10 @@ function largest(a,b,c) {
 }
 
 console.log(largest(1000,2000,3000));
+
+//ex:2
+function large(a,b,c) {
+    return Math.max(a,b,c)
+}
+console.log(large(30,80,200));
+
