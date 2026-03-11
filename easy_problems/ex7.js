@@ -36,3 +36,4 @@ function fact(k) {
     return result
 }
 console.log(fact(5));
+
