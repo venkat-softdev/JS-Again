@@ -35,3 +35,9 @@ do {
 
 //Ex:4
 
+let value=50;
+
+do {
+  console.log(value);
+  
+} while (value<10);
