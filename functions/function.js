@@ -84,4 +84,3 @@ function addnumbers(a, b) {
   return a + b;
 }
 console.log(addnumbers(30, 70));
-  
