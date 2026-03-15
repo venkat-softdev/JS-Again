@@ -35,3 +35,19 @@ dog.describe()
 const cat=new animal('billy','cat')
 cat.describe()
 console.log(cat);
+
+// ex:2
+class person{
+    constructor(name,city){
+        this.name=name;
+        this.city=city;
+    }
+    detail(){
+        console.log(`${this.name} come from ${this.city} for searching a job`);
+        
+    }
+}
+
+let venkat=new person('venkat','vadalur');
+console.log(venkat);
+venkat.detail()
