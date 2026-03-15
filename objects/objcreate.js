@@ -51,3 +51,17 @@ class person{
 let venkat=new person('venkat','vadalur');
 console.log(venkat);
 venkat.detail()
+
+//ex:3
+
+const member={
+    isHuman:false,
+    printintro(){
+        console.log(`My name is ${this.name}.Am I human? ${this.isHuman}`);
+        
+    }
+}
+const me=Object.create(member);
+me.name='venkat';
+me.isHuman=true;
+me.printintro()
