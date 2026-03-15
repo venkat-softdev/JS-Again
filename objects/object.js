@@ -24,3 +24,17 @@ car.model='M800';
 car.year=2007;
 console.log(car);
 console.log(car.model);
+
+// 
+
+function book(title,author,year) {
+    this.title=title;
+    this.author=author;
+    this.year=year;
+    this.getdetails=function () {
+        console.log(`${this.title} by ${this.author} , published by ${this.year}`);
+        
+    }
+}
+const book1=new book('let us c','venkat',2026);
+console.log(book1);
