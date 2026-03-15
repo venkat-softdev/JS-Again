@@ -18,3 +18,20 @@ console.log(people);
 people.eligible()
 
 
+// using classes 
+class animal{
+    constructor(name,species){
+        this.name=name;
+        this.species=species;
+    }
+ describe(){
+    console.log(`${this.name} is a ${this.species}`);
+    
+ }
+}
+const dog=new animal('max','dog');
+console.log(dog);
+dog.describe()
+const cat=new animal('billy','cat')
+cat.describe()
+console.log(cat);
