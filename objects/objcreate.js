@@ -107,3 +107,49 @@ console.log(usermember.name);
 usermember.age=20;
 console.log(usermember.age);
 
+//4.add new property;
+
+let fruits={
+    name:'apple'
+};
+let fruit=Object.create(fruits);
+fruit.color='red';
+console.log(fruit.name);
+console.log(fruit.color);
+
+//5.multiple objects
+
+let vehicle={
+    wheels:4
+};
+let car=Object.create(vehicle);
+console.log(car.wheels);
+
+//6.multiple objects
+let subject={
+    name:'tamil'
+};
+let subname=Object.create(subject);
+console.log(subname.name);
+
+//7. method inheritance
+
+let student={
+    study(){
+        console.log('studying...');
+        
+    }
+}
+let s1=Object.create(student);
+s1.study();
+
+//8.override property
+let change={
+    name:'venkat'
+};
+let value=Object.create(change);
+console.log(value.name);
+value.name='yuvaraj';
+console.log(value.name);
+
+//9.
