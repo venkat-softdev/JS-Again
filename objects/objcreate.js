@@ -152,4 +152,32 @@ console.log(value.name);
 value.name='yuvaraj';
 console.log(value.name);
 
-//9.
+//9.prototype check
+
+let parent={
+    a:10
+};
+let child=Object.create(parent);
+console.log(child.a);
+
+//10.add property using descriptor
+
+let use=Object.create({},{
+    name:{
+        value:'venkat'
+    }
+})
+console.log(use.name);
+
+//11.add property using descriptor
+
+let vegetable=Object.create({},{
+   name:{
+     value:'tomato'
+   }
+});
+
+console.log(vegetable.name);
+vegetable.name.value='brinjal';
+console.log(vegetable.name);
+
