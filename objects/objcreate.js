@@ -19,52 +19,52 @@ people.eligible()
 
 
 // using classes 
-class animal{
-    constructor(name,species){
-        this.name=name;
-        this.species=species;
-    }
- describe(){
-    console.log(`${this.name} is a ${this.species}`);
-    
- }
-}
-const dog=new animal('max','dog');
-console.log(dog);
-dog.describe()
-const cat=new animal('billy','cat')
-cat.describe()
-console.log(cat);
-
-// ex:2
-// class person{
-//     constructor(name,city){
+// class animal{
+//     constructor(name,species){
 //         this.name=name;
-//         this.city=city;
+//         this.species=species;
 //     }
-//     detail(){
-//         console.log(`${this.name} come from ${this.city} for searching a job`);
+//  describe(){
+//     console.log(`${this.name} is a ${this.species}`);
+    
+//  }
+// }
+// const dog=new animal('max','dog');
+// console.log(dog);
+// dog.describe()
+// const cat=new animal('billy','cat')
+// cat.describe()
+// console.log(cat);
+
+// // ex:2
+// // class person{
+// //     constructor(name,city){
+// //         this.name=name;
+// //         this.city=city;
+// //     }
+// //     detail(){
+// //         console.log(`${this.name} come from ${this.city} for searching a job`);
+        
+// //     }
+// // }
+
+// // let venkat=new person('venkat','vadalur');
+// // console.log(venkat);
+// // venkat.detail()
+
+// //ex:3
+
+// const member={
+//     isHuman:false,
+//     printintro(){
+//         console.log(`My name is ${this.name}.Am I human? ${this.isHuman}`);
         
 //     }
 // }
-
-// let venkat=new person('venkat','vadalur');
-// console.log(venkat);
-// venkat.detail()
-
-//ex:3
-
-const member={
-    isHuman:false,
-    printintro(){
-        console.log(`My name is ${this.name}.Am I human? ${this.isHuman}`);
-        
-    }
-}
-const me=Object.create(member);
-me.name='venkat';
-me.isHuman=true;
-me.printintro();
+// const me=Object.create(member);
+// me.name='venkat';
+// me.isHuman=true;
+// me.printintro();
 
 //ex:4
 let person={
@@ -87,4 +87,13 @@ let users={
     }
 }
 let venkat=Object.create(users);
-venkat.mem()
+venkat.mem();
+
+//2.Acess parent property
+
+let animal={
+    type:'dog'
+}
+let pet=Object.create(animal);
+console.log(pet.type);
+
