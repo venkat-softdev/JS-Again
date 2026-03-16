@@ -97,3 +97,13 @@ let animal={
 let pet=Object.create(animal);
 console.log(pet.type);
 
+// 3 .add new property 
+
+let persons={
+    name:'venkat'
+};
+let usermember=Object.create(persons);
+console.log(usermember.name);
+usermember.age=20;
+console.log(usermember.age);
+
