@@ -77,3 +77,14 @@ let person={
 let user=Object.create(person);
 user.greet()
 
+
+//ex:5
+let users={
+  
+    mem() {
+        console.log('hello venkat');
+        
+    }
+}
+let venkat=Object.create(users);
+venkat.mem()
