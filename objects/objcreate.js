@@ -37,20 +37,20 @@ cat.describe()
 console.log(cat);
 
 // ex:2
-class person{
-    constructor(name,city){
-        this.name=name;
-        this.city=city;
-    }
-    detail(){
-        console.log(`${this.name} come from ${this.city} for searching a job`);
+// class person{
+//     constructor(name,city){
+//         this.name=name;
+//         this.city=city;
+//     }
+//     detail(){
+//         console.log(`${this.name} come from ${this.city} for searching a job`);
         
-    }
-}
+//     }
+// }
 
-let venkat=new person('venkat','vadalur');
-console.log(venkat);
-venkat.detail()
+// let venkat=new person('venkat','vadalur');
+// console.log(venkat);
+// venkat.detail()
 
 //ex:3
 
@@ -68,10 +68,12 @@ me.printintro();
 
 //ex:4
 let person={
-    greet(){
+    greet() {
         console.log('hello');
         
     }
-}
-let user=object.create(person);
+};
+
+let user=Object.create(person);
 user.greet()
+
