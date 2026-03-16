@@ -181,3 +181,28 @@ console.log(vegetable.name);
 vegetable.name.value='brinjal';
 console.log(vegetable.name);
 
+//12.empty object prototype
+
+let obj=Object.create(null);
+obj.name='venkat';
+console.log(obj.name);
+
+//13 .real lide example
+let employee={
+    company:'TCS'
+}
+let emp1=Object.create(employee);
+emp1.name='venkat';
+console.log('company name :'+emp1.company);
+console.log('name :'+emp1.name);
+
+//
+let emplo=Object.create({},{
+    company:{
+       value:'ZOHO'
+    }
+});
+console.log(emplo.company);
+emplo.company.value='venkat';
+console.log(emplo.company.value);
+
