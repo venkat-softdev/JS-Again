@@ -64,4 +64,14 @@ const member={
 const me=Object.create(member);
 me.name='venkat';
 me.isHuman=true;
-me.printintro()
+me.printintro();
+
+//ex:4
+let person={
+    greet(){
+        console.log('hello');
+        
+    }
+}
+let user=object.create(person);
+user.greet()
