@@ -89,3 +89,4 @@ let mem={
 }
 let store=Object.create(mem);
 console.log(Object.keys(store));
+ 
