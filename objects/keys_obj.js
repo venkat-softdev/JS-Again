@@ -12,3 +12,8 @@ Object.entries(fruits).forEach((fruit)=>{
     console.log(fruit);
     
 })
+
+Object.entries(fruits).forEach((key,value)=>{
+    console.log(key);
+    
+})
