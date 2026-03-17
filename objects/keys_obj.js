@@ -48,4 +48,19 @@ let key=Object.keys(member);
 key.forEach((keys)=>{
     console.log(keys);
     
+});
+let skey=Object.values(member);
+skey.forEach((val)=>{
+    console.log(skey);
+    
+});
+
+//ex:4 access values using keys 
+let fuser={
+    name:'venkat',
+    age:20
+}
+Object.keys(fuser).forEach((key)=>{
+    console.log(key,fuser[key]);
+    
 })
