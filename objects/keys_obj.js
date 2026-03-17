@@ -6,4 +6,9 @@ let fruits={
     weight:'10gram'
 }
 console.log(Object.keys(fruits));
+console.log(Object.entries(fruits));
 
+Object.entries(fruits).forEach((fruit)=>{
+    console.log(fruit);
+    
+})
