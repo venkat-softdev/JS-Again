@@ -49,3 +49,24 @@ let totalvalue=Object.values(mark).reduce((sum,value)=>{
     return sum+value
 })
 console.log(totalvalue);
+
+// ex:5 empty object 
+let objex={}
+console.log(Object.values(objex));
+
+//ex:6 prototype case 
+
+let person={
+    name:'venkat'
+}
+let users=Object.create(person);
+console.log(Object.values(users));
+
+// ex:7 mixed values
+
+let details={
+    name:'venakt',
+    age:20,
+    city:'chennai'
+}
+console.log(Object.values(details));
