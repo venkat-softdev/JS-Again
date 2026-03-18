@@ -1,72 +1,70 @@
-// object values method in javascript 
+// object values method in javascript
 /**
   in javscript object.value() is a method that returns of an array 
   all the values in object 
  */
 
-  //ex:1 basic
+//ex:1 basic
 
-  let user={
-    name:'venkat',
-    age:20
-  }
-  console.log(Object.values(user));
-  
-  let value=Object.values(user)
+let user = {
+  name: "venkat",
+  age: 20,
+};
+console.log(Object.values(user));
+
+let value = Object.values(user);
 value.forEach((use) => {
-    console.log(use);
-    
+  console.log(use);
 });
 
 //ex:2
 
-let fuser={
-    name:'venkat',
-    age:21
-}
-let values=Object.values(fuser);
+let fuser = {
+  name: "venkat",
+  age: 21,
+};
+let values = Object.values(fuser);
 console.log(values);
 
 //ex:3 sum values
-let marks={
-    math:90,
-    science:80,
-    social:80
-}
-let total=Object.values(marks).reduce((acc,cvalue)=>{
-    return acc+cvalue
-},0)
+let marks = {
+  math: 90,
+  science: 80,
+  social: 80,
+};
+let total = Object.values(marks).reduce((acc, cvalue) => {
+  return acc + cvalue;
+}, 0);
 console.log(total);
 
-
 // ex:4 using sum
-let mark={
-    tamil:90,
-    english:90,
-    maths:90
-}
-let totalvalue=Object.values(mark).reduce((sum,value)=>{
-    return sum+value
-})
+let mark = {
+  tamil: 90,
+  english: 90,
+  maths: 90,
+};
+let totalvalue = Object.values(mark).reduce((sum, value) => {
+  return sum + value;
+});
 console.log(totalvalue);
 
-// ex:5 empty object 
-let objex={}
+// ex:5 empty object
+let objex = {};
 console.log(Object.values(objex));
 
-//ex:6 prototype case 
+//ex:6 prototype case
 
-let person={
-    name:'venkat'
-}
-let users=Object.create(person);
+let person = {
+  name: "venkat",
+};
+let users = Object.create(person);
 console.log(Object.values(users));
 
 // ex:7 mixed values
 
-let details={
-    name:'venakt',
-    age:20,
-    city:'chennai'
-}
+let details = {
+  name: "venakt",
+  age: 20,
+  city: "chennai",
+};
 console.log(Object.values(details));
