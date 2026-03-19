@@ -60,3 +60,28 @@ let resultvalue=Object.entries(marks).filter(([key,value])=>{
     return value >=50
 })
 console.log(resultvalue);
+
+// filter values
+
+let veges={
+    carrot:'3kg',
+    onion:'5kg',
+    tomato:'1kg',
+    beans:'1.5kg'
+}
+
+let filtervalue=Object.entries(veges).filter(([key,value])=>{
+    return value>'1kg'
+})
+console.log(filtervalue);
+
+//ex:6 modify values
+
+let data={
+    a:1,
+    b:2
+}
+let updated=Object.entries(data).map(([key,val])=>{
+    return [key,val*2]
+})
+console.log(updated);
