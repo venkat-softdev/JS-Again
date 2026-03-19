@@ -37,3 +37,26 @@ Object.entries(fruits).map(([key,value])=>{
    
     
 })
+
+//ex:4 convert to object again
+let users={
+    name:'venkat',
+    age:22
+}
+
+let entries=Object.entries(users);
+let obj=Object.fromEntries(entries);
+
+console.log(obj);
+
+//ex:5 filter values
+
+let marks={
+    math:90,
+    science:40,
+    english:80
+}
+let resultvalue=Object.entries(marks).filter(([key,value])=>{
+    return value >=50
+})
+console.log(resultvalue);
