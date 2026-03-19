@@ -85,3 +85,13 @@ let updated=Object.entries(data).map(([key,val])=>{
     return [key,val*2]
 })
 console.log(updated);
+
+// ex:7 prototype cases 
+
+let use={
+    name:'venkat',
+    age:24
+}
+
+let uservalue=Object.create(use);
+console.log(Object.entries(uservalue));
