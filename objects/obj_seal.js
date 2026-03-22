@@ -16,3 +16,22 @@
   sealobj.gender="male"
   console.log(sealobj);
   
+  //ex:2
+  let user={
+    name:'venkat',
+    age:20
+  }
+  user.name="yuva"
+  Object.seal(user)
+  user.city='chennai'
+  console.log(user);
+  
+  //ex:3 delete not allowed 
+
+  let users={
+    name:'yuva'
+  }
+  Object.seal(users)
+  delete user.name;
+  console.log(users);
+  
