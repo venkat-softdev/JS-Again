@@ -67,3 +67,6 @@ console.log(user_details.account?.contact?.address?.city);
 
 console.log(user_details.account?.contact?.phone);
 
+user_details.account.name="venkat"
+
+console.log(user_details.account?.name);
