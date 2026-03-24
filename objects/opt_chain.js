@@ -61,4 +61,9 @@ const user_details={
         }
     }
 }
-console.log(user_details);
+console.log(user_details.account?.holder?.profile?.birthdate);
+
+console.log(user_details.account?.contact?.address?.city);
+
+console.log(user_details.account?.contact?.phone);
+
