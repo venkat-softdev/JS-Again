@@ -30,3 +30,5 @@ let users = {
 Object.seal(users);
 delete user.name;
 console.log(users);
+
+
