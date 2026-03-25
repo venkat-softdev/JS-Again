@@ -70,3 +70,17 @@ console.log(user_details.account?.contact?.phone);
 user_details.account.name="venkat"
 
 console.log(user_details.account?.name);
+
+
+
+//ex:2
+let users={
+    profile:{
+        address:{
+            city:'vadalur'
+        }
+    }
+}
+console.log(users.profile?.address?.city);
+console.log(users.profile?.address?.phone);
+
