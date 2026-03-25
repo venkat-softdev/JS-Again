@@ -84,3 +84,24 @@ let users={
 console.log(users.profile?.address?.city);
 console.log(users.profile?.address?.phone);
 
+
+//ex:3
+let user1=[
+    {name:'venkat'},
+    {name:'yuva'}
+]
+console.log(user1[0]?.name);
+console.log(user1[1]?.name);
+
+
+//ex:4
+let data={
+    users:[
+   {profile:{name:'venkat'}},
+   {profile:{name:'kakashi'}}
+    ]
+}
+
+console.log(data.users?.[0]?.profile?.name);
+console.log(data.users?.[1]?.profile?.name);
+
