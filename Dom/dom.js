@@ -16,5 +16,10 @@ box.style.height="300px"
 box.style.margin="10px"
 box.style.borderRadius="10px"
 
-let para=document.getElementsByTagName('p')
 
+let para=document.getElementsByTagName("h4")
+for (let i = 0; i < para.length; i++) {
+   
+    para[i].style.color="deeppink"
+    
+}
