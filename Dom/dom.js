@@ -15,3 +15,6 @@ box.style.width="500px"
 box.style.height="300px"
 box.style.margin="10px"
 box.style.borderRadius="10px"
+
+let para=document.getElementsByTagName('p')
+
