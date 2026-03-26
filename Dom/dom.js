@@ -23,3 +23,22 @@ for (let i = 0; i < para.length; i++) {
     para[i].style.color="deeppink"
     
 }
+
+let p=document.querySelectorAll('h4')
+p.forEach((ele)=>{
+    ele.style.color="green"
+})
+
+
+let ul=document.querySelectorAll('#ul')
+
+let list=document.querySelectorAll('li')
+console.log(list);
+
+let element=document.createElement('li')
+element.innerHTML="javascript"
+list[0].parentNode.appendChild(element);
+
+list.forEach((value)=>{
+    value.style.color="deeppink"
+})
