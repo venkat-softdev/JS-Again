@@ -24,3 +24,8 @@ console.log(section);
 let fchild=section[0].firstElementChild
 console.log(fchild);
 fchild.style.color="brown"
+
+let lchild=section[0].lastElementChild;
+console.log(lchild);
+lchild.style.backgroundColor="blue";
+lchild.style.borderRadius="10px"
