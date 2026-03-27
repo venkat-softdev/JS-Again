@@ -13,5 +13,14 @@ console.log(head);
 let parent2=head[0].parentNode;
 console.log(parent2);
 parent2.style.backgroundColor="lightgreen"
-parent2.style.padding="30px";
+parent2.style.margin="30px";
+parent2.style.padding="10px"
+parent2.style.textAlign='center'
 
+//firstchild 
+
+let section=document.getElementsByTagName('section')
+console.log(section);
+let fchild=section[0].firstElementChild
+console.log(fchild);
+fchild.style.color="brown"
