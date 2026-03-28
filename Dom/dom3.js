@@ -17,8 +17,12 @@
   body.appendChild(para);
 
   let h2=document.createElement('h2')
-  h2.innerText="javascript is a high level interpreted programming language"
+  h2.innerHTML="javascript is a high level interpreted programming <i>language</i>"
   body.appendChild(h2)
   h2.style.color="deeppink"
 
-  
+let head=document.createElement('h1');
+head.innerHTML="This is Heading"
+head.style.color="brown";
+body.insertBefore(head,para);
+
