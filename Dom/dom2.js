@@ -29,3 +29,4 @@ let lchild=section[0].lastElementChild;
 console.log(lchild);
 lchild.style.backgroundColor="blue";
 lchild.style.borderRadius="10px"
+
