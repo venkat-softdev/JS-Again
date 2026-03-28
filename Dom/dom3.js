@@ -26,3 +26,18 @@ head.innerHTML="This is Heading"
 head.style.color="brown";
 body.insertBefore(head,para);
 
+
+let btn = document.querySelectorAll('.btnremove');
+
+btn.forEach((button)=>{
+    button.addEventListener('click',function () {
+       const tr= button.parentNode.parentNode
+       tr.remove();
+
+        
+       
+       
+    })
+});
+
+
