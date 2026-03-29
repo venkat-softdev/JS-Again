@@ -9,3 +9,10 @@ h1.style.backgroundColor="blue"
 h1.style.padding="20px"
 h1.style.textAlign="center"
 
+let clone=h1.cloneNode(true);
+body.appendChild(clone)
+
+let clone2=h1.cloneNode(false);
+body.appendChild(clone2)
+
+//setinterval 
