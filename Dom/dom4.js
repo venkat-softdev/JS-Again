@@ -16,3 +16,23 @@ let clone2=h1.cloneNode(false);
 body.appendChild(clone2)
 
 //setinterval 
+ let clockdiv=document.querySelector(".clock")
+function clock(params) {
+  const date=new Date();
+  const time=date.getHours()+" : "+date.getMinutes()+" : "+date.getSeconds()
+  
+  clockdiv.innerHTML=time
+  
+}
+
+ 
+ setInterval(() => {
+    clock()
+ }, 1000);
+
+ clockdiv.style.color="#fff"
+ clockdiv.style.fontSize="50px"
+ clockdiv.style.fontStyle="bold"
+ clockdiv.style.textAlign="center"
+ clockdiv.style.backgroundColor="deeppink"
+ 
