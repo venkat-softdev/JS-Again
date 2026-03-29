@@ -13,7 +13,8 @@ setInterval(() => {
     clock()
 }, 1000);
 
-clockdiv.style.color="blue"
+clockdiv.style.color="#fff"
 clockdiv.style.textAlign="center"
 clockdiv.style.fontSize="100px"
 clockdiv.style.fontWeight="900"
+clockdiv.style.backgroundColor="blue"
