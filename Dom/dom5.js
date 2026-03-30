@@ -17,4 +17,35 @@ clockdiv.style.color="#fff"
 clockdiv.style.textAlign="center"
 clockdiv.style.fontSize="100px"
 clockdiv.style.fontWeight="900"
-clockdiv.style.backgroundColor="blue"
+clockdiv.style.backgroundColor="blue";
+
+
+// let btnadd=document.querySelector("#btnadd");
+// let btnremove=document.querySelector("#btnremove");
+// let btntoggle=document.querySelector("#btntoggle");
+// let box=document.querySelector('.box')
+// btnadd.addEventListener('click',function () {
+   
+//     box.classList.add('new-color');
+    
+// })
+
+// btnremove.addEventListener('click',function (params) {
+    
+//     box.classList.remove('new-color')
+// })
+
+// btntoggle.addEventListener('click',function (params) {
+    
+//     box.classList.toggle('new-color')
+// })
+
+
+
+let btnclick = document.querySelector('#btnclick');
+const input = document.querySelector('input');
+
+btnclick.addEventListener('click', function () {
+    const value = input.value;
+    console.log(value);
+});
