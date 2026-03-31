@@ -18,10 +18,23 @@ btn.style.fontWeight="900"
 /**
  double click
  click
+ mousedown
  */
 
  let btn2=document.querySelector('#dblbtn');
  btn2.addEventListener('dblclick',function () {
  
     alert('This is double click Button')
+ })
+
+ btn.addEventListener('mousedown',function (params) {
+    this.style.backgroundColor="#000"
+ })
+
+ btn.addEventListener('mouseout',function (params) {
+    this.style.backgroundColor="deeppink"
+ })
+
+ btn.addEventListener('mouseup',function (params) {
+    this.style.backgroundColor="gold"
  })
