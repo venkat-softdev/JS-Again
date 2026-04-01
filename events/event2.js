@@ -16,3 +16,8 @@ function keyevent(event) {
     
     
 }
+
+
+let label=document.querySelector('label');
+let input=document.querySelector('input');
+let error=document.querySelector('#error')
