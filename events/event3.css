@@ -45,3 +45,14 @@ select{
 fieldset{
     border: none;
 }
+button{
+    width: 100px;
+    border: none;
+    font-size: 13px;
+    background-color: #000;
+    color: #fff;
+    font-weight: 600;
+    padding: 6px;
+    margin-top: 5px;
+    border-radius: 3px;
+}
