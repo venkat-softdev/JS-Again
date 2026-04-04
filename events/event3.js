@@ -31,3 +31,12 @@ form.addEventListener('reset',function (e) {
     console.log('reseted the form values');
     
 })
+
+function  venkat () {
+  name='venkat'
+}
+setInterval(() => {
+
+ 
+   
+}, 1000);
