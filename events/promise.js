@@ -19,3 +19,25 @@ promise.then((msg)=>{
     
 })
 
+
+// example 2
+
+setTimeout(() => {
+    console.log('hi');
+    
+}, 2000);
+
+function settimeoutpromise(duration) {
+    return new Promise((resolve, reject) => {
+        setTimeout(resolve,duration)
+    })
+}
+
+settimeoutpromise(2000).then((msg)=>{
+    console.log('hello');
+    
+})
+.catch((error)=>{
+    console.log(error);
+    
+})
