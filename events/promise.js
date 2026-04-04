@@ -213,3 +213,21 @@ randomvalue.then((msg)=>{
 })
 
 //ex:11
+
+let agecheck=new Promise((resolve, reject) => {
+    let age=17
+
+    if (age>18) {
+        resolve('eleigible to vote')
+    } else {
+        reject('not eligible to vote')
+    }
+})
+agecheck.then((msg)=>{
+    console.log(msg);
+    
+})
+.catch((err)=>{
+    console.log(err);
+    
+})
