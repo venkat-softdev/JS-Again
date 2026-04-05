@@ -51,4 +51,21 @@ console.log(output);
 
 
 
+function getnumber() {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve(10)
+        }, 1000);
+    })
 
+}
+
+async function run() {
+    let data=await getnumber()
+     let adding=data+5;
+     console.log(adding);
+     
+     console.log(adding*2);
+     
+}
+run()
