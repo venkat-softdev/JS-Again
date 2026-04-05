@@ -69,3 +69,75 @@ async function run() {
      
 }
 run()
+
+
+//ex:2
+
+function getA(params) {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve(5)
+        }, 1000);
+    })
+}
+
+function getB(params) {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve(10)
+        }, 1000);
+    })
+}
+
+async function combine(params) {
+    
+    let result1= await getA()
+    let result2=await getB()
+
+    let result3= result1+result2;
+    console.log(result3);
+    
+}
+combine()
+
+
+//ex:3
+
+function checknum(num) {
+    
+    return new Promise((resolve, reject) => {
+        if (num >0) {
+            resolve('positive')
+        } else {
+            reject('negative')
+        }
+    })
+}
+
+async function run(params) {
+    
+    try {
+        let res= await checknum(5)
+        
+        console.log(res);
+        
+    } catch (err) {
+       
+        console.log(err);
+        
+    }
+
+    try {
+        
+        let value=await checknum(-2)
+        console.log(value);
+         
+
+    } catch (err) {
+        console.log(err);
+        
+    }
+
+}
+
+//ex:5
