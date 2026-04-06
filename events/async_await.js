@@ -187,3 +187,21 @@ async function food(params) {
 
 food()
 
+
+//ex:7
+
+function run() {
+    setTimeout(() => {
+        return new Promise((resolve, reject) => {
+            resolve('hello venkat')
+        })
+    }, 10000);
+}
+
+async function running(params) {
+    let output= await run()
+    console.log(output);
+    
+}
+
+running()
