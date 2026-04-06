@@ -246,3 +246,27 @@ Promise.any([Promise.resolve('good'),Promise.reject('bad'),Promise.resolve('good
     
 })
 
+
+
+//promise .race
+Promise.race([Promise.resolve('good'),Promise.resolve('ggod'),Promise.reject('bad')])
+.then((msg)=>{
+    console.log(msg);
+    
+})
+.catch((err)=>{
+    console.log(err);
+    
+})
+
+
+// promise allsettled
+Promise.allSettled([Promise.resolve('good'),Promise.resolve('ggod'),Promise.reject('bad')])
+.then((msg)=>{
+    console.log(msg);
+    
+})
+.catch((err)=>{
+    console.log(err);
+    
+})
