@@ -232,3 +232,17 @@ agecheck.then((msg)=>{
     
 })
 
+
+// promise .all
+
+
+Promise.any([Promise.resolve('good'),Promise.reject('bad'),Promise.resolve('good')])
+.then((msg)=>{
+    console.log(msg);
+    
+})
+.catch((err)=>{
+    console.log(err);
+    
+})
+
