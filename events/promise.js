@@ -298,3 +298,4 @@ Promise.all([getpost(),getcommnets()])
     console.log(err);
     
 })
+
