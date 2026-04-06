@@ -270,3 +270,31 @@ Promise.allSettled([Promise.resolve('good'),Promise.resolve('ggod'),Promise.reje
     console.log(err);
     
 })
+
+const getpost=()=>{
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            const posts=['post-1','post-2']
+        }, 1000);
+    })
+}
+
+const getcommnets=()=>{
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            const comments=['commnet-1','comments-2']
+        }, 2000);
+    })
+}
+
+Promise.all([getpost(),getcommnets()])
+.then((result)=>{
+   const [posts,comments]=result
+   console.log(`post : ${posts}`);
+    console.log(`comments :${comments}`);
+     
+})
+.catch((err)=>{
+    console.log(err);
+    
+})
