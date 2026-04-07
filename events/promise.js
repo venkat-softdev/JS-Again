@@ -1,301 +1,281 @@
-// javascript promise 
+// javascript promise
 
-let promise=new Promise((resolve, reject) => {
-    let sum=1+1
+let promise = new Promise((resolve, reject) => {
+  let sum = 1 + 1;
 
-    if (sum==2) {
-        resolve('done')
-    }
-    else{
-        reject('undone')
-    }
-})
+  if (sum == 2) {
+    resolve("done");
+  } else {
+    reject("undone");
+  }
+});
 
-promise.then((msg)=>{
- console.log(msg);
- 
-}).catch((error)=>{
+promise
+  .then((msg) => {
+    console.log(msg);
+  })
+  .catch((error) => {
     console.log(error);
-    
-})
-
+  });
 
 // example 2
 
 setTimeout(() => {
-    console.log('hi');
-    
+  console.log("hi");
 }, 2000);
 
 function settimeoutpromise(duration) {
-    return new Promise((resolve, reject) => {
-        setTimeout(resolve,duration)
-    })
+  return new Promise((resolve, reject) => {
+    setTimeout(resolve, duration);
+  });
 }
 
-settimeoutpromise(2000).then((msg)=>{
-    console.log('hello');
-    
-})
-.catch((error)=>{
+settimeoutpromise(2000)
+  .then((msg) => {
+    console.log("hello");
+  })
+  .catch((error) => {
     console.log(error);
-    
-})
-
+  });
 
 //ex:2
-let mypromise=new Promise((resolve, reject) => {
-    let sucees='true'
-    
-    if (sucees=='true') {
-        resolve('well done')
-    }
-    else{
-        reject('try again')
-    }
-})
+let mypromise = new Promise((resolve, reject) => {
+  let sucees = "true";
 
-mypromise.then((good)=>{
+  if (sucees == "true") {
+    resolve("well done");
+  } else {
+    reject("try again");
+  }
+});
+
+mypromise
+  .then((good) => {
     console.log(good);
-    
-})
-.catch((error)=>{
+  })
+  .catch((error) => {
     console.log(error);
-    
-})
+  });
 
 //ex:3
-let ispass='true'
+let ispass = "true";
 
-let exam=new Promise((resolve, reject) => {
-    if (ispass) {
-        resolve('pass')
-    }
-    else{
-        reject('fail')
-    }
-})
+let exam = new Promise((resolve, reject) => {
+  if (ispass) {
+    resolve("pass");
+  } else {
+    reject("fail");
+  }
+});
 
-exam.then((msg)=>{
+exam
+  .then((msg) => {
     console.log(msg);
-    
-})
-.catch((error)=>{
+  })
+  .catch((error) => {
     console.log(error);
-    
-})
+  });
 
 //ex:4
 
-let download=new Promise((resolve, reject) => {
-    setTimeout(() => {
-        resolve('download successfully')
-    }, 2000);
-})
+let download = new Promise((resolve, reject) => {
+  setTimeout(() => {
+    resolve("download successfully");
+  }, 2000);
+});
 
-download.then((msg)=>{
-    console.log(msg);
-    
-})
+download.then((msg) => {
+  console.log(msg);
+});
 
 //ex:5
-let checknumber=new Promise((resolve, reject) => {
-    let num=10
+let checknumber = new Promise((resolve, reject) => {
+  let num = 10;
 
-    if (num>5) {
-        resolve('num greater than 5')
-    } else {
-        reject('num less than 5')
-    }
-})
-checknumber.then((msg)=>{
+  if (num > 5) {
+    resolve("num greater than 5");
+  } else {
+    reject("num less than 5");
+  }
+});
+checknumber
+  .then((msg) => {
     console.log(msg);
-    
-})
-.catch((error)=>{
+  })
+  .catch((error) => {
     console.log(error);
-    
-})
+  });
 
 //ex:6
-let num=0
+let num = 0;
 
-let checking=new Promise((resolve, reject) => {
-    if (num%2==0) {
-        resolve('even number')
-    } else {
-        reject('odd number')
-    }
-})
+let checking = new Promise((resolve, reject) => {
+  if (num % 2 == 0) {
+    resolve("even number");
+  } else {
+    reject("odd number");
+  }
+});
 
-checking.then((msg)=>{
+checking
+  .then((msg) => {
     console.log(msg);
-    
-})
-.catch((error)=>{
+  })
+  .catch((error) => {
     console.log(error);
-    
-})
+  });
 
 //ex:7
 
-let login=new Promise((resolve, reject) => {
-    let password='12345'
+let login = new Promise((resolve, reject) => {
+  let password = "12345";
 
-    if (password==='12345') {
-        resolve('login success')
-    } else {
-        reject('wrong password try again')
-    }
-})
+  if (password === "12345") {
+    resolve("login success");
+  } else {
+    reject("wrong password try again");
+  }
+});
 
-login.then((msg)=>{
+login
+  .then((msg) => {
     console.log(msg);
-    
-})
-.catch((err)=>{
+  })
+  .catch((err) => {
     console.log(err);
-    
-})
+  });
 
 //ex:8
-let orderfood=new Promise((resolve, reject) => {
-    setTimeout(() => {
-        resolve('food delivered')
-    }, 3000);
-})
+let orderfood = new Promise((resolve, reject) => {
+  setTimeout(() => {
+    resolve("food delivered");
+  }, 3000);
+});
 
-orderfood.then((msg)=>{
-    console.log(msg);
-    
-})
+orderfood.then((msg) => {
+  console.log(msg);
+});
 //ex:9
 
-let work=new Promise((resolve, reject) => {
-    resolve(10)
-})
+let work = new Promise((resolve, reject) => {
+  resolve(10);
+});
 
-work.then((num)=>{
+work
+  .then((num) => {
     console.log(num);
-    return num*2
-    
-})
-.then((num)=>{
+    return num * 2;
+  })
+  .then((num) => {
     console.log(num);
-    return num+5
-    
-})
-.then((num)=>{
+    return num + 5;
+  })
+  .then((num) => {
     console.log(num);
-    return num/2
-    
-})
+    return num / 2;
+  });
 
 //ex:10
 
-let randomvalue=new Promise((resolve, reject) => {
-    let random=Math.random();
+let randomvalue = new Promise((resolve, reject) => {
+  let random = Math.random();
 
-    if (random > 0.5) {
-        resolve('success')
-    } else {
-        reject('failed')
-    }
-})
+  if (random > 0.5) {
+    resolve("success");
+  } else {
+    reject("failed");
+  }
+});
 
-randomvalue.then((msg)=>{
+randomvalue
+  .then((msg) => {
     console.log(msg);
-    
-})
-.catch((err)=>{
+  })
+  .catch((err) => {
     console.log(err);
-    
-})
+  });
 
 //ex:11
 
-let agecheck=new Promise((resolve, reject) => {
-    let age=17
+let agecheck = new Promise((resolve, reject) => {
+  let age = 17;
 
-    if (age>18) {
-        resolve('eleigible to vote')
-    } else {
-        reject('not eligible to vote')
-    }
-})
-agecheck.then((msg)=>{
+  if (age > 18) {
+    resolve("eleigible to vote");
+  } else {
+    reject("not eligible to vote");
+  }
+});
+agecheck
+  .then((msg) => {
     console.log(msg);
-    
-})
-.catch((err)=>{
+  })
+  .catch((err) => {
     console.log(err);
-    
-})
-
+  });
 
 // promise .all
 
-
-Promise.any([Promise.resolve('good'),Promise.reject('bad'),Promise.resolve('good')])
-.then((msg)=>{
+Promise.any([
+  Promise.resolve("good"),
+  Promise.reject("bad"),
+  Promise.resolve("good"),
+])
+  .then((msg) => {
     console.log(msg);
-    
-})
-.catch((err)=>{
+  })
+  .catch((err) => {
     console.log(err);
-    
-})
-
-
+  });
 
 //promise .race
-Promise.race([Promise.resolve('good'),Promise.resolve('ggod'),Promise.reject('bad')])
-.then((msg)=>{
+Promise.race([
+  Promise.resolve("good"),
+  Promise.resolve("ggod"),
+  Promise.reject("bad"),
+])
+  .then((msg) => {
     console.log(msg);
-    
-})
-.catch((err)=>{
+  })
+  .catch((err) => {
     console.log(err);
-    
-})
-
+  });
 
 // promise allsettled
-Promise.allSettled([Promise.resolve('good'),Promise.resolve('ggod'),Promise.reject('bad')])
-.then((msg)=>{
+Promise.allSettled([
+  Promise.resolve("good"),
+  Promise.resolve("ggod"),
+  Promise.reject("bad"),
+])
+  .then((msg) => {
     console.log(msg);
-    
-})
-.catch((err)=>{
+  })
+  .catch((err) => {
     console.log(err);
-    
-})
+  });
 
-const getpost=()=>{
-    return new Promise((resolve, reject) => {
-        setTimeout(() => {
-            const posts=['post-1','post-2']
-        }, 1000);
-    })
-}
+const getpost = () => {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      const posts = ["post-1", "post-2"];
+    }, 1000);
+  });
+};
 
-const getcommnets=()=>{
-    return new Promise((resolve, reject) => {
-        setTimeout(() => {
-            const comments=['commnet-1','comments-2']
-        }, 2000);
-    })
-}
+const getcommnets = () => {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      const comments = ["commnet-1", "comments-2"];
+    }, 2000);
+  });
+};
 
-Promise.all([getpost(),getcommnets()])
-.then((result)=>{
-   const [posts,comments]=result
-   console.log(`post : ${posts}`);
+Promise.all([getpost(), getcommnets()])
+  .then((result) => {
+    const [posts, comments] = result;
+    console.log(`post : ${posts}`);
     console.log(`comments :${comments}`);
-     
-})
-.catch((err)=>{
+  })
+  .catch((err) => {
     console.log(err);
-    
-})
-
+  });
