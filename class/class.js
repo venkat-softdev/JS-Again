@@ -17,4 +17,6 @@ class Employee{
  emp2.employeename="jignesh" ;
 
  let emp3=new Employee()
- emp2.print()
+ emp2.print();
+
+ 
